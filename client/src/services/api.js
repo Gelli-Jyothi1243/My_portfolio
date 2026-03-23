@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use production backend URL
-const API_URL = "https://gidy-profile-backend-odl6.onrender.com";
+const API_URL = "https://my-portfolio-dh0p.onrender.com";
 
 const API = axios.create({
   baseURL: API_URL,
