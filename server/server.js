@@ -5,7 +5,12 @@ require("dotenv").config()
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin: [
+    "https://my-portfolio-ten-kohl-43.vercel.app",
+    "http://localhost:5173"
+  ]
+}))
 app.use(express.json())
 
 mongoose.connect(process.env.MONGODB_URI || process.env.MONGO_URI)
