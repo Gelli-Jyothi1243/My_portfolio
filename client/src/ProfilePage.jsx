@@ -208,9 +208,6 @@ export default function ProfilePage() {
     <div className="loading-container">
       <div className="spinner"></div>
       <p>Loading profile...</p>
-      <p style={{ fontSize: '14px', color: '#666', marginTop: '10px' }}>
-        First load may take 30-60 seconds (free tier backend waking up)
-      </p>
     </div>
   )
 
@@ -218,9 +215,9 @@ export default function ProfilePage() {
 
   return (
     <div className="profile-page">
-      {/* Gidy Logo Header */}
+      {/* Portfolio Header */}
       <div className="gidy-header">
-        <img src="/gidy-logo.png" alt="Gidy" className="gidy-logo" />
+        <span className="portfolio-title">My Portfolio</span>
         <button onClick={toggleTheme} className="theme-toggle" title="Toggle theme">
           {theme === 'light' ? '🌙' : '☀️'}
         </button>
