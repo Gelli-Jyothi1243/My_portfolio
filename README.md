@@ -1,4 +1,4 @@
-# Gidy Profile Page - Full-Stack Application
+# My Portfolio - Full-Stack Application
 
 A professional profile management system built with React, Node.js, Express, and MongoDB. This application allows users to showcase their skills, experience, projects, education, and achievements with an intuitive interface.
 
@@ -6,7 +6,7 @@ A professional profile management system built with React, Node.js, Express, and
 
 - **Frontend**: https://gidy-profile-page.vercel.app
 - **Backend API**: https://gidy-profile-backend-odl6.onrender.com/api/profile
-- **GitHub Repository**: https://github.com/Gelli-Jyothi1243/gidy-profile-page
+- **GitHub Repository**: https://github.com/Gelli-Jyothi1243/My_portfolio
 
 ## � Tech Stack
 
@@ -113,8 +113,8 @@ Education history is displayed as a visual timeline with icons, dates, and score
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Gelli-Jyothi1243/gidy-profile-page.git
-   cd gidy-profile-page
+   git clone https://github.com/Gelli-Jyothi1243/My_portfolio.git
+   cd My_portfolio
    ```
 
 2. **Setup Backend**
@@ -125,7 +125,7 @@ Education history is displayed as a visual timeline with icons, dates, and score
 
    Create `.env` file:
    ```
-   MONGODB_URI=mongodb+srv://gellijyothi2005:Chintu99088@cluster10.neqdo.mongodb.net/profileDB?retryWrites=true&w=majority
+   MONGODB_URI=your_mongodb_connection_string
    PORT=5000
    ```
 
@@ -158,7 +158,7 @@ Education history is displayed as a visual timeline with icons, dates, and score
 ## 📁 Project Structure
 
 ```
-gidy-profile-page/
+My_portfolio/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── ProfilePage.jsx # Main component
@@ -226,7 +226,7 @@ gidy-profile-page/
 - GitHub: https://github.com/Gelli-Jyothi1243
 - LinkedIn: https://www.linkedin.com/in/jyothi-gelli-791017257/
 
-Created as part of the Gidy Full-Stack Developer Assessment.
+Created as a personal portfolio project.
 
 ---
 
